@@ -1,0 +1,81 @@
+html {
+    background: linear-gradient(232deg, rgba(140,153,45,1) 0%, rgba(66,152,143,1) 100%);
+    height: 100%;
+    font-family: 'tektur', sans-serif;
+}
+
+.overskrift {
+    text-align: center;
+    -webkit-text-stroke: .5px black;
+    font-weight: 400;
+    color: rgba(255, 166, 0, 0.888);
+    text-shadow: 3px 3px black;
+    
+}
+
+.skrift {
+    font-size: 40px;
+    color: white;
+    -webkit-text-stroke: black 2px;
+    text-shadow: 4px 4px black;
+}
+
+
+.green, .blue, .yellow, .red, .actblue, .actgreen, .actred, .actyellow {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 20%;
+
+}
+
+.knapper {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+    background: linear-gradient(344deg, rgba(165,185,21,1) 0%, rgba(82,226,212,1) 100%);
+    text-align: center;
+    box-shadow: 5px 5px 5px black;
+}
+
+.green {
+    background-color: darkgreen;
+}
+
+.blue {
+    background-color: darkblue;
+}
+
+.yellow {
+    background-color: rgb(172, 169, 32);
+}
+
+.red {
+    background-color: darkred;
+}
+
+.actgreen {
+    background-color: rgb(4, 199, 4);
+}
+
+.actblue {
+    background-color: rgb(9, 9, 218);
+}
+
+.actyellow {
+    background-color: rgb(209, 255, 4);
+}
+
+.actred {
+    background-color: rgb(255, 2, 2);
+}
+
+.score {
+    text-align: center;
+}
